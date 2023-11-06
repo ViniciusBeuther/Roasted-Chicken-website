@@ -1,0 +1,132 @@
+
+$primary-font: 'Lobster', sans-serif;
+$paragraph-font: 'Open Sans', sans-serif;
+$secundary-color: #006e61;
+$white-color: #DFE0DF;
+
+$theme-colors: (
+  "primary": #FFBA09,
+  "secundary": #006E61,
+  "black": #1E1E1E,
+  "white": #DFE0DF,
+  "danger": #ff4136,
+  "custom": #58c1d3
+);
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  font-size: 32px;
+
+  .nav-links{
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+.nav-links:hover{
+  scale: 1.025;
+  transition: 0.75s;
+
+  a:hover{
+    text-decoration: underline;
+  }
+}
+
+article#hero-section{
+  p{
+    font-size: 1.125 rem;
+    max-width: 600px;
+    width: 100%;
+  }
+  h1{
+    font-size: 4.5rem;
+  }
+
+  a{
+    text-decoration: none;
+    color: $white-color;
+  }
+
+  .button-style:hover{
+    scale: 1.05;
+    transition: 0.5s;
+    transform: translateY(-5px);
+    a{
+      background-color: $secundary-color;
+      color: $white-color;
+      text-decoration: none;
+    }
+    
+  }
+}
+
+#more-info-btn{
+  a{
+    color: $secundary-color;
+  }
+  
+}
+
+#more-info-btn:hover{
+  color: $white-color;
+  scale: 1.05;
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+
+#tradition-section{
+  p.paragraph-font{
+    max-width: 1280px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  h3{
+    font-size: 24px;
+  }
+  .traditional-card-style{
+    max-width: 300px;
+    width: 100%;
+    height: 80px;
+
+    border-radius: 15px;
+    background: #006e61;
+    box-shadow: 20px -20px 60px #026a5e;
+
+    img{
+      border-radius: 5px;
+    }
+  }
+
+  .card-text{
+    height: 80px;
+  }
+}
+
+#explore-products-marketing{
+  font-size: 2.625rem;
+}
+#explore-title{
+  font-size: 1.25rem;
+  margin-bottom: -10px;
+}
+
+
+.primary-font{
+  font-family: $primary-font;
+}
+
+.paragraph-font{
+  font-family: $paragraph-font;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
