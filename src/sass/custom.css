@@ -74,6 +74,9 @@ article#hero-section .button-style:hover a {
 #tradition-section .traditional-card-style img {
   border-radius: 5px;
 }
+#tradition-section .traditional-cards {
+  margin-left: 10px;
+}
 #tradition-section .card-text {
   height: 80px;
 }
