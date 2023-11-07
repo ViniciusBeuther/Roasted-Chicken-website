@@ -10,8 +10,10 @@ $theme-colors: (
   "black": #1E1E1E,
   "white": #DFE0DF,
   "danger": #ff4136,
-  "custom": #58c1d3
+  "custom": #58c1d3,
+  "yellow": #FFBA09,
 );
+$primary-color: #FFBA09;
 
 *{
   padding: 0;
@@ -119,6 +121,13 @@ article#hero-section{
 #explore-title{
   font-size: 1.25rem;
   margin-bottom: -10px;
+}
+
+.order-button{
+  background-color: $primary-color;
+}
+.order-button:hover{
+  background-color: #fbc849;
 }
 
 
