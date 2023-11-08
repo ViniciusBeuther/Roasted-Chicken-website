@@ -48,11 +48,17 @@ article#hero-section .button-style:hover a {
   color: #006e61;
 }
 
-#more-info-btn:hover {
+#more-info-btn:hover, #contact-btn:hover {
   color: #DFE0DF;
   scale: 1.05;
   transition: 0.5s;
   transform: translateY(-5px);
+}
+
+.about-us-text {
+  text-align: justify;
+  max-width: 600px;
+  width: 100%;
 }
 
 #tradition-section p.paragraph-font {
@@ -98,8 +104,25 @@ article#hero-section .button-style:hover a {
   background-color: #fbc849;
 }
 
+#about_us_section {
+  background-image: url(../../assets/images/circle-scatter-haikei.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
 .primary-font {
   font-family: "Lobster", sans-serif;
+}
+
+.lg-font {
+  font-size: 4rem;
+}
+
+.div-where-are-we {
+  max-width: 650px;
+  width: 100%;
+  border-radius: 0% 50% 0% 50%;
 }
 
 .paragraph-font {
