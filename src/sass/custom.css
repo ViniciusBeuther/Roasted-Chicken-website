@@ -129,6 +129,36 @@ article#hero-section .button-style:hover a {
   font-family: "Open Sans", sans-serif;
 }
 
+@media (max-width: 767px) {
+  header {
+    font-size: 24px;
+  }
+  header p {
+    text-align: center;
+    padding: 0px;
+  }
+  header a, header nav {
+    display: None;
+  }
+  article#hero-section h1, article#hero-section .h1 {
+    font-size: 3rem;
+  }
+  #tradition-section p.paragraph-font {
+    font-size: 14px;
+  }
+  #tradition-section h3, #tradition-section .h3 {
+    font-size: 20px;
+  }
+  .traditional-card-style {
+    max-width: 100%;
+  }
+  #explore-products-marketing {
+    font-size: 2rem;
+  }
+  #explore-title {
+    font-size: 1rem;
+  }
+}
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
