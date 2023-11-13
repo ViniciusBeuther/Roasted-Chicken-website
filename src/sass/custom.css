@@ -179,11 +179,21 @@ article#hero-section .button-style:hover a {
   }
   #our-food-parent-div #explore-products-marketing {
     font-size: 2rem;
-    padding: 0px;
+    padding: 10px;
   }
   #our-food-parent-div #explore-title {
     font-size: 1.25rem;
     padding-bottom: 1rem;
+  }
+  .card-container {
+    padding-bottom: 10px;
+    width: 80%;
+  }
+  #about_us_section {
+    flex-direction: column;
+  }
+  #about_us_section img {
+    max-width: 100%;
   }
 }
 /*!

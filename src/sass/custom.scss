@@ -228,7 +228,7 @@ article#hero-section{
     padding: 10px;
     #explore-products-marketing{
       font-size: 2rem;
-      padding: 0px;
+      padding: 10px;
     }
 
     #explore-title {
@@ -237,6 +237,18 @@ article#hero-section{
     }
   }
 
+  .card-container{
+    padding-bottom: 10px;
+    width: 80%;
+  }
+
+  #about_us_section{
+    flex-direction: column;
+  
+    img{
+      max-width: 100%;
+    }
+  }
   
   
 
