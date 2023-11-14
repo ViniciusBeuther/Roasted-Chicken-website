@@ -129,6 +129,10 @@ article#hero-section .button-style:hover a {
   font-family: "Open Sans", sans-serif;
 }
 
+.about_us_img_container {
+  padding: 15px 10px;
+}
+
 @media (max-width: 767px) {
   header {
     font-size: 24px;
@@ -191,9 +195,42 @@ article#hero-section .button-style:hover a {
   }
   #about_us_section {
     flex-direction: column;
+    width: 100%;
   }
   #about_us_section img {
     max-width: 100%;
+  }
+  #about_us_section .about_us_img_container {
+    padding: 25px 10px -5px 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  #about_us_section #about_us_text_parent {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  #location_section_parent {
+    width: 100%;
+    flex-direction: column;
+  }
+  #location_section_parent img, #location_section_parent #location_img_parent {
+    display: none;
+  }
+  #location_section_parent .div-where-are-we {
+    width: 100%;
+    padding: 100px;
+    margin: 0;
+    background: #000;
+    border-radius: 25px;
+  }
+  #location_section_parent .div-where-are-we h1, #location_section_parent .div-where-are-we .h1 {
+    font-size: 3.25rem;
+  }
+  #location_section_parent .div-where-are-we p {
+    font-size: 1.25rem;
   }
 }
 /*!

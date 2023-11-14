@@ -161,6 +161,10 @@ article#hero-section{
   font-family: $paragraph-font;
 }
 
+.about_us_img_container{
+  padding: 15px 10px;
+}
+
 @media (max-width: 767px) {
   header {
     font-size: 24px;
@@ -244,13 +248,51 @@ article#hero-section{
 
   #about_us_section{
     flex-direction: column;
-  
+    width: 100%;
+    
     img{
       max-width: 100%;
     }
+
+    .about_us_img_container{
+      padding: 25px 10px -5px 10px;
+      margin: 0px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+
+    #about_us_text_parent{
+      padding: 10px;
+      margin: 0;
+      text-align: center;
+    }
   }
   
-  
+  #location_section_parent{
+    width: 100%;
+    flex-direction: column;
+
+    img, #location_img_parent{
+      display: none;
+    }
+
+    .div-where-are-we{
+      width: 100%;
+      padding:  100px;
+      margin: 0;
+      background: #000;
+      border-radius: 25px;
+
+      h1{
+        font-size: 3.25rem;
+      }
+
+      p{
+        font-size: 1.25rem;
+      }
+    }
+  }
 
 
 }
